@@ -1,2 +1,2 @@
-# Claude-Math-Study
-Use Claude to study math ideas
+# Claude-Math-Exploration
+Use Claude to explore math ideas

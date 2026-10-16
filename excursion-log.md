@@ -13,6 +13,13 @@ Template:
 
 ***
 
+## Oct 16, 2026 — The impossible numbers (What is algebra? part 3)
+
+* **What we looked at:** No number times itself is negative (positive × positive and negative × negative are both positive), so a square root of −121 "can't exist." Cardano published a formula for cubic equations in 1545, causing a scandal over a broken promise. On x³ = 15x + 4, whose answer is plainly 4, the formula requires √−121 on the way.
+* **What clicked:** Unlike negative answers, which could be set aside as "false," these impossible numbers sit _on the road_ to a real answer and can't be avoided. Bombelli (1572) calculated with √−1 using the ordinary rules plus one new rule (√−1 × √−1 = −1). The impossible parts cancel in pairs and leave 4, like scaffolding taken down once the building stands. Trust in the rules ran ahead of any picture by about 250 years.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** The picture that made imaginary numbers real (a quarter turn, c. 1800). Hamilton (1843) and breaking a × b = b × a; Fog is especially interested. Optional: Bombelli's cancellation step by step.
+
 ## Oct 15–16, 2026 — From words to symbols, and what symbols forced (What is algebra? part 2)
 
 * **What we looked at:** Algebra's three stages: words (al-Khwarizmi), abbreviations (Diophantus c. 250; Italian _p_ and _m_; Recorde's equals sign, 1557), full symbols. Viète's move (1591): letters for the _given_ numbers too, so a whole family of problems (x² + bx = c) can be solved once, and the method becomes an object you can study. Symbols then produced answers pictures couldn't hold. x² + 10x = 39 also has x = −13, which al-Khwarizmi never mentions. Europe called negative roots "false" into the 1700s; Brahmagupta (c. 628) had already treated negatives as debts.

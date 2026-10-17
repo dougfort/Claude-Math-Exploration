@@ -13,6 +13,27 @@ Template:
 
 ***
 
+## Oct 17, 2026 — Matrices, and how two arrows fix the whole plane (What is algebra? part 6)
+
+* **What we looked at:** After Hamilton, new arithmetics appeared quickly: octonions (Graves, Cayley; 8 numbers, grouping matters), Boole's algebra of logic (x × x = x), Grassmann's arrows in any number of dimensions (1844, largely unread), and matrices (Cayley's 1858 memoir). A matrix is a grid of numbers that _moves space_. A 2-by-2 grid records only where "one step right" and "one step up" land. The quarter turn is the grid 0 −1 / 1 0, which does what multiplying by i does. Multiplying matrices means doing one motion, then the other, so order matters.
+* **What clicked:** Every point is a recipe ("3 rights + 2 ups"). Linear motions keep grid lines straight, parallel, and evenly spaced, so each point keeps its recipe and only the ingredients change: same recipe, new ingredients. Quarter turn: (3, 2) → 3 ups + 2 lefts = (−2, 3). The argument used only adding arrows and stretching them, and a vector space is any collection where those two operations make sense and follow the rules. Fourier's waves as recipes of pure tones have the same structure. A neural-network layer is mostly this move with thousands of ingredients.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Vector spaces as a rule-list, and surprising things that turn out to be vectors (moved to "What is a vector space?"). Boole's arithmetic. Outside source: 3Blue1Brown, _Essence of Linear Algebra_, chapter 3.
+
+## Oct 17, 2026 — Hamilton and the quaternions (What is algebra? part 5)
+
+* **What we looked at:** Hamilton wanted numbers that do for 3-D space what i does for the plane. Triples failed for years ("can you multiply triplets yet, Papa?"). A rough reason: a turn-and-stretch in space needs an axis (2 numbers), an angle, and a stretch, which makes 4, not 3. On 16 October 1843, walking by Dublin's Royal Canal, he found quaternions (three imaginary directions i, j, k, each squaring to −1) and carved the rules into Broom Bridge.
+* **What clicked:** The price was giving up "order doesn't matter": i × j = k but j × i = −k. That isn't a defect, because turns in space themselves depend on order (try the two quarter turns of a book in both orders). Unlike the negatives, where the rules _forced_ the answer, Hamilton _chose_ which rule to drop. Algebra could now pick its rules. That answered "could different rules give a consistent arithmetic?": yes.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** What the four parts of a quaternion do, and how a quaternion turns an object. Outside source: eater.net/quaternions (3Blue1Brown and Ben Eater, interactive).
+
+## Oct 16, 2026 — The quarter turn: imaginary numbers get a picture (What is algebra? part 4)
+
+* **What we looked at:** Multiplying by −1 is a half turn around zero on the number line, and twice is a full turn (negative × negative = positive, seen as motion). Multiplying by i twice must equal multiplying by −1, a half turn, so multiplying by i is a _quarter turn_, which points off the line into a new direction. 1 → i → −1 → −i → 1.
+* **What clicked:** The "impossible" numbers were never missing, just _off_ the line. 3 + 2i is a point in a plane: 3 along, 2 up. Wessel (1797, unread), Argand (1806), and Gauss (1831, decisive) gave the picture. After 250 years the scaffolding turned out to be a building. These numbers are the language of turning and stretching in the plane, and Hamilton wanted the same for space.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Why multiplying any two plane numbers is "turn by an angle, then stretch."
+
 ## Oct 16, 2026 — The impossible numbers (What is algebra? part 3)
 
 * **What we looked at:** No number times itself is negative (positive × positive and negative × negative are both positive), so a square root of −121 "can't exist." Cardano published a formula for cubic equations in 1545, causing a scandal over a broken promise. On x³ = 15x + 4, whose answer is plainly 4, the formula requires √−121 on the way.

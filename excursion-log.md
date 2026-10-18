@@ -13,6 +13,20 @@ Template:
 
 ***
 
+## Oct 17–18, 2026 — Lists of numbers as vectors (What is a vector space? part 2)
+
+* **What we looked at:** A list of 2 numbers is an arrow in the plane, 3 numbers an arrow in space, 1,000 numbers an arrow in 1,000-dimensional space. Add lists item by item, stretch by multiplying every item; the rules hold. "Dimension" is how many ingredients the recipe needs. Examples: a kitchen recipe (flour, sugar, butter, eggs) is a point in 4-D, and doubling it is stretching. A 100×100 black-and-white photo is a point in 10,000-D, and averaging two photos lands halfway between them.
+* **What clicked:** Nobody pictures 10,000 dimensions. You reason in 2 or 3 and let the rules carry it, since they never mention dimension (the old joke: picture 3-D and say "fourteen" very firmly). A neural-network layer is a matrix doing "same recipe, new ingredients": 10,000 numbers become a shorter list of weighted blends.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Closeness: distance works in any dimension, so similar photos are nearby points, the root of machine recognition. Where the 3-D picture fails (a high-dimensional orange is almost all peel).
+
+## Oct 17, 2026 — Vector spaces as a rule-list; sounds are vectors (What is a vector space? part 1)
+
+* **What we looked at:** A vector space is anything you can add and stretch by numbers, following about eight unsurprising rules (order of adding doesn't matter, a zero element, opposites that cancel, stretching distributes over adding). Peano wrote the list down in 1888, building on Grassmann. The payoff is Viète's again: prove it once, and it holds for everything that fits.
+* **What clicked:** Sounds are vectors. Play two together to add them; make them louder, softer, or flipped (noise-cancelling headphones) to stretch them. Pure tones are the ingredients, as in Fourier, but infinitely many of them. "Same recipe, new ingredients" carries over: a linear change to sound treats each pure tone separately.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** An audio equalizer as a "matrix for sound." Ingredients a motion only stretches, never turns, have a name and matter enormously.
+
 ## Oct 17, 2026 — Matrices, and how two arrows fix the whole plane (What is algebra? part 6)
 
 * **What we looked at:** After Hamilton, new arithmetics appeared quickly: octonions (Graves, Cayley; 8 numbers, grouping matters), Boole's algebra of logic (x × x = x), Grassmann's arrows in any number of dimensions (1844, largely unread), and matrices (Cayley's 1858 memoir). A matrix is a grid of numbers that _moves space_. A 2-by-2 grid records only where "one step right" and "one step up" land. The quarter turn is the grid 0 −1 / 1 0, which does what multiplying by i does. Multiplying matrices means doing one motion, then the other, so order matters.

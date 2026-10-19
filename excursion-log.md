@@ -13,6 +13,20 @@ Template:
 
 ***
 
+## Oct 19, 2026 — Rings, and the wrap-up (What is algebra? part 8, final)
+
+* **What we looked at:** A ring is the rule-list for two operations: adding (a group where order doesn't matter), multiplying (grouping rule, usually a 1, no undo required), and distribution linking them. Examples: whole numbers, matrices, quaternions, clock arithmetic (9 + 5 = 2; 3 × 4 = 0, two non-zeros making zero), and a modern version of Boole's logic. Emmy Noether (Göttingen, 1920s) made rings central.
+* **What clicked:** The ring rules are exactly the rules that _forced_ negative × negative = positive in part 2. The rules that had to survive became the definition, so the fact holds in every ring. The answer to "What is algebra?" is the study of structures: collections with ways of combining that obey rules, apart from what the members are. Summary written as what-is-algebra.md.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Galois and the missing formula for x⁵ (still open).
+
+## Oct 18, 2026 — Groups: the pattern without the material (What is algebra? part 7)
+
+* **What we looked at:** The 8 symmetries of a paper square (4 turns including "do nothing", 4 flips). Combining = doing one move then another. A group is any collection with a way of combining that obeys four rules: combining stays inside, there's a "do nothing," every move has an undo, grouping doesn't matter. No numbers needed.
+* **What clicked:** The square's four turns combine exactly as 1, i, −1, −i multiply (quarter turn ↔ i, half turn ↔ −1). It's the same group in completely different materials, so the pattern itself becomes the subject. Whole numbers under adding are a group too (the undo of 5 is −5). The square's flips show order mattering, as with Hamilton.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Galois (d. 1832 at 20): groups explain why there's no formula for x⁵. Rings (done in part 8).
+
 ## Oct 17–18, 2026 — Lists of numbers as vectors (What is a vector space? part 2)
 
 * **What we looked at:** A list of 2 numbers is an arrow in the plane, 3 numbers an arrow in space, 1,000 numbers an arrow in 1,000-dimensional space. Add lists item by item, stretch by multiplying every item; the rules hold. "Dimension" is how many ingredients the recipe needs. Examples: a kitchen recipe (flour, sugar, butter, eggs) is a point in 4-D, and doubling it is stretching. A 100×100 black-and-white photo is a point in 10,000-D, and averaging two photos lands halfway between them.

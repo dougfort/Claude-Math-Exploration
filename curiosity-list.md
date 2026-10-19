@@ -2,14 +2,17 @@
 
 Things I'd like to understand, or just enjoy thinking about. No order, no obligation. Add freely; cross off nothing — move finished ones to the log.
 
+## Finished explorations
+- What is algebra? (Oct 15–19, 2026; parts 1–8 in the log; summary in what-is-algebra.md)
+
 ## Open questions (Fog's own)
-- **Next up: finish "What is algebra?"** Fog wants this finished. Parts 1–6 are in the log (al-Khwarizmi → symbols → negatives → imaginary numbers → Hamilton → matrices). Still to do: groups and rings, the structures with no numbers in them at all, which answer "How did algebra go from solving for x to studying structures?"
 - What is a vector space? (begun; parts 1–2 in the log; paused Oct 18 by choice, with its open branches kept below) Explore until neural networks stop looking like black magic. (from Tivadar Danka, The Palindrome; an exploration, not a course)
 - Seeing a matrix as a graph: what that picture is, and what it reveals (from Tivadar Danka)
-- Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra
+- Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra (a modern version turns out to be a ring)
 - (add the questions that came out of the Concept Exploration project here)
 
 ## Threads from excursions
+- Galois (d. 1832, at 20): how groups explain why there's no formula for equations with x⁵, ending the formula hunt that began with al-Khwarizmi (from algebra parts 7–8)
 - Closeness in high dimensions: similar photos are nearby points, the root of machine recognition (from vector spaces part 2)
 - Where the 3-D picture fails: a high-dimensional orange is almost all peel (from vector spaces part 2)
 - An audio equalizer as a "matrix for sound": ingredients a motion only stretches, never turns (from vector spaces part 1)

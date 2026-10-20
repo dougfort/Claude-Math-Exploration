@@ -13,6 +13,13 @@ Template:
 
 ***
 
+## Oct 20, 2026 — Shuffling the solutions: x² = 2 (Galois part 2)
+
+* **What we looked at:** x² = 2 has two solutions, a = √2 and b = −√2. Using only ordinary numbers and +, −, ×, ÷, every true statement about them stays true when you swap them (a² = 2, a + b = 0, a × b = −2). "Positive" tells them apart, but that's order, not arithmetic. So the allowed shuffles are "do nothing" and "swap," the smallest non-trivial group (same pattern as 1 and −1). Contrast: x² = 4 (solutions 2 and −2), where "a − 2 = 0" breaks under the swap, so only "do nothing" is allowed.
+* **What clicked:** x² = 4 needs no root and its group is just "do nothing"; x² = 2 needs √2 and its group has a swap. Taking a root is what separates twins. Each root peels one simple layer off the group, and a formula exists exactly when the group can be peeled down layer by layer to nothing.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Why x⁵ fails: 120 shuffles of five solutions, with an unpeelable core of 60, the rotations of an icosahedron. Optional: Galois's life, fact vs. legend.
+
 ## Oct 19, 2026 — The formula hunt ends: Abel and Galois (Galois part 1)
 
 * **What we looked at:** The formula hunt: x² (completing the square, square roots), x³ (Cardano, 1545), x⁴ (Ferrari, same book). For x⁵, nearly 300 years of failure. Abel (1824; Ruffini nearly, 1799) proved no formula using +, −, ×, ÷ and roots solves every x⁵ equation. The solutions still exist and can be calculated; only the recipe is missing. Galois (1811–1832): failed the Polytechnique entrance twice, expelled from the École Normale, jailed for republican activity, manuscripts lost or rejected, a letter summarizing his ideas the night before the duel (the "invented it all in one night" story is legend). Liouville published his work in 1846.

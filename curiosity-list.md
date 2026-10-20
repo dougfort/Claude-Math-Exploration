@@ -6,7 +6,7 @@ Things I'd like to understand, or just enjoy thinking about. No order, no obliga
 - What is algebra? (Oct 15–19, 2026; parts 1–8 in the log; summary in what-is-algebra.md)
 
 ## Open questions (Fog's own)
-- Galois: how groups explain why there's no formula for equations with x⁵ (begun Oct 19; part 1 in the log). Next: what "shuffling the solutions" means, starting with x² = 2 and its two solutions √2 and −√2. Optional drill-down: Galois's life, the duel, and the letter (what's known vs. legend).
+- Galois: how groups explain why there's no formula for equations with x⁵ (begun Oct 19; parts 1–2 in the log). Next: why x⁵ fails — its five solutions can be shuffled 120 ways, with a core of 60 that can't be peeled, the same as the rotations of an icosahedron (20-sided die). Optional drill-down: Galois's life, the duel, and the letter (what's known vs. legend).
 - What is a vector space? (begun; parts 1–2 in the log; paused Oct 18 by choice, with its open branches kept below) Explore until neural networks stop looking like black magic. (from Tivadar Danka, The Palindrome; an exploration, not a course)
 - Seeing a matrix as a graph: what that picture is, and what it reveals (from Tivadar Danka)
 - Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra (a modern version turns out to be a ring)

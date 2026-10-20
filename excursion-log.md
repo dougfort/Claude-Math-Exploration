@@ -13,6 +13,13 @@ Template:
 
 ***
 
+## Oct 19, 2026 — The formula hunt ends: Abel and Galois (Galois part 1)
+
+* **What we looked at:** The formula hunt: x² (completing the square, square roots), x³ (Cardano, 1545), x⁴ (Ferrari, same book). For x⁵, nearly 300 years of failure. Abel (1824; Ruffini nearly, 1799) proved no formula using +, −, ×, ÷ and roots solves every x⁵ equation. The solutions still exist and can be calculated; only the recipe is missing. Galois (1811–1832): failed the Polytechnique entrance twice, expelled from the École Normale, jailed for republican activity, manuscripts lost or rejected, a letter summarizing his ideas the night before the duel (the "invented it all in one night" story is legend). Liouville published his work in 1846.
+* **What clicked:** Abel showed _that_ it's impossible; Galois explained _why_. Instead of hunting for the formula, look at the solutions and ask how they can be shuffled without the equation telling the difference. Those shuffles form a group, and a formula exists exactly when that group can be taken apart in a particularly simple way. For the general x⁵ it can't.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** What "shuffling the solutions" means, starting with x² = 2 (√2 and −√2). Optional: more on Galois's life, separating fact from legend.
+
 ## Oct 19, 2026 — Rings, and the wrap-up (What is algebra? part 8, final)
 
 * **What we looked at:** A ring is the rule-list for two operations: adding (a group where order doesn't matter), multiplying (grouping rule, usually a 1, no undo required), and distribution linking them. Examples: whole numbers, matrices, quaternions, clock arithmetic (9 + 5 = 2; 3 × 4 = 0, two non-zeros making zero), and a modern version of Boole's logic. Emmy Noether (Göttingen, 1920s) made rings central.

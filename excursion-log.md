@@ -13,6 +13,13 @@ Template:
 
 ***
 
+## Oct 20, 2026 — Why x⁵ fails: the icosahedron (Galois part 3, final)
+
+* **What we looked at:** Five solutions can be shuffled 5 × 4 × 3 × 2 × 1 = 120 ways, and for a typical x⁵ (e.g. x⁵ − x − 1 = 0) all 120 are allowed. One square root peels that to 60, and then it's stuck: the 60 can't be peeled at all ("simple," like a prime that can't be factored). So no formula. The 60 are the turns of an icosahedron, which shuffle five hidden sets of perpendicular axes (Klein's 1884 book). Lower degrees peel: x² has 2 shuffles, x³ has 6 (triangle), x⁴ has 24 (cube). Some x⁵ equations, like x⁵ = 2, have smaller groups and are solvable.
+* **What clicked:** The reason there's no formula for x⁵ is, in a real sense, the symmetry of a 20-sided die. The structures solved the problem algebra started with. Added as chapter 9 of what-is-algebra.md.
+* **Still fuzzy:** (nothing noted; the proof that the 60 can't be peeled was given as a conclusion, not shown)
+* **Threads that opened:** Why the 60 can't be peeled, sketched in small steps. Optional: Galois's life, fact vs. legend.
+
 ## Oct 20, 2026 — Shuffling the solutions: x² = 2 (Galois part 2)
 
 * **What we looked at:** x² = 2 has two solutions, a = √2 and b = −√2. Using only ordinary numbers and +, −, ×, ÷, every true statement about them stays true when you swap them (a² = 2, a + b = 0, a × b = −2). "Positive" tells them apart, but that's order, not arithmetic. So the allowed shuffles are "do nothing" and "swap," the smallest non-trivial group (same pattern as 1 and −1). Contrast: x² = 4 (solutions 2 and −2), where "a − 2 = 0" breaks under the swap, so only "do nothing" is allowed.

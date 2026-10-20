@@ -4,15 +4,17 @@ Things I'd like to understand, or just enjoy thinking about. No order, no obliga
 
 ## Finished explorations
 - What is algebra? (Oct 15–19, 2026; parts 1–8 in the log; summary in what-is-algebra.md)
+- Galois and why there's no formula for x⁵ (Oct 19–20, 2026; parts 1–3 in the log; added as chapter 9 of what-is-algebra.md)
 
 ## Open questions (Fog's own)
-- Galois: how groups explain why there's no formula for equations with x⁵ (begun Oct 19; parts 1–2 in the log). Next: why x⁵ fails — its five solutions can be shuffled 120 ways, with a core of 60 that can't be peeled, the same as the rotations of an icosahedron (20-sided die). Optional drill-down: Galois's life, the duel, and the letter (what's known vs. legend).
 - What is a vector space? (begun; parts 1–2 in the log; paused Oct 18 by choice, with its open branches kept below) Explore until neural networks stop looking like black magic. (from Tivadar Danka, The Palindrome; an exploration, not a course)
 - Seeing a matrix as a graph: what that picture is, and what it reveals (from Tivadar Danka)
 - Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra (a modern version turns out to be a ring)
 - (add the questions that came out of the Concept Exploration project here)
 
 ## Threads from excursions
+- Why the icosahedron's 60 shuffles can't be peeled, sketched in small steps (from Galois part 3)
+- Galois's life, the duel, and the letter: what's known vs. legend (optional, from Galois part 1)
 - Closeness in high dimensions: similar photos are nearby points, the root of machine recognition (from vector spaces part 2)
 - Where the 3-D picture fails: a high-dimensional orange is almost all peel (from vector spaces part 2)
 - An audio equalizer as a "matrix for sound": ingredients a motion only stretches, never turns (from vector spaces part 1)

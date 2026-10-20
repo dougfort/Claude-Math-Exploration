@@ -1,6 +1,6 @@
 # What is algebra?
 
-*A one-page summary of the exploration, Oct 15–19, 2026.*
+*A one-page summary of the exploration, Oct 15–20, 2026.*
 
 ## The short answer
 Algebra began as a way of finding an unknown number. It became the study of **structures**: collections of things with ways of combining them, governed by rules, and studied apart from what the things are.
@@ -23,10 +23,12 @@ Algebra began as a way of finding an unknown number. It became the study of **st
 
 **8. Rings: two operations (Noether, 1920s).** The rule-list for adding and multiplying, tied together by distribution. These are the very rules that forced negative × negative = positive, now taken as the definition. Whole numbers, matrices, quaternions, clock arithmetic (where 3 × 4 = 0), and a version of Boole's logic all fit.
 
+**9. The structures answer the oldest question (Abel 1824, Galois d. 1832).** Formulas existed for x², x³ and x⁴. For x⁵, nearly 300 years of failure, until Abel proved no formula built from +, −, ×, ÷ and roots can exist. Galois explained why. Instead of hunting for the formula, look at the solutions and ask how they can be shuffled without ordinary arithmetic noticing; those shuffles form a group. Taking a root peels one simple layer off the group, so a formula exists exactly when the group can be peeled to nothing. Five solutions can be shuffled 120 ways, and inside sits a core of 60 that can't be peeled: the 60 turns of an icosahedron. The hunt that began with al-Khwarizmi's square ends with a 20-sided die.
+
 ## The thread through it all
 At each stage a new kind of number or object arrived before anyone understood it, and it was accepted because it **obeyed the rules**. Eventually the rules themselves became what algebra is about.
 
 ## Still open
-- Galois (d. 1832): how groups explain why there's no formula for x⁵, ending the formula hunt that began with al-Khwarizmi
+- Why the core of 60 can't be peeled (the counting argument)
 - Boole's arithmetic, and how logic became algebra
 - Vector spaces (begun; paused), matrices as graphs

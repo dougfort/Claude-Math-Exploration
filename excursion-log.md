@@ -13,6 +13,34 @@ Template:
 
 ***
 
+## Oct 20, 2026 — Learning as walking downhill; the wrap-up (What is a vector space? part 6, final)
+
+* **What we looked at:** Mistakes become one number, the loss. Each setting of the weights is a point in a landscape (a vector), with loss as height. Calculus gives the slope for each weight; together the slopes make the gradient, which points uphill, so you step the other way (gradient descent, Cauchy 1847). Billions of weights means billions of dimensions, but the rule never mentions dimension. Backpropagation (made famous 1986) finds all the slopes in one backward sweep. Caveats: step size matters, and you can get stuck in a small dip (less of a problem in practice than feared, and not fully understood why).
+* **What clicked:** This is Danka's "calculus as optimization language": calculus says which way is down. All four of his suggestions have now been touched as ideas. Summary written as what-is-a-vector-space.md.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Backpropagation in small steps.
+
+## Oct 20, 2026 — Neural network drawings are matrices (What is a vector space? part 5)
+
+* **What we looked at:** The familiar drawing of dots in columns joined by weighted lines is a matrix drawn as a graph: one row per output, one column per input, one entry per line. Each output is its incoming lines added up, weight times input. Stacked matrices alone collapse into one motion, so a bend goes between layers (any negative becomes zero), like folding graph paper instead of only slanting it.
+* **What clicked:** A neural network is matrix, bend, matrix, bend. The weights aren't chosen; they start random and get nudged to reduce mistakes. The machinery isn't magic, though why it generalizes so well is still not fully understood. Outside source: 3Blue1Brown, _Neural Networks_, chapter 1.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** The folding paper: why bends plus matrices separate what straight motions can't.
+
+## Oct 20, 2026 — PageRank: the web as a matrix (What is a vector space? part 4)
+
+* **What we looked at:** A matrix read as a graph: dots and arrows. Three pages: A links to B and C, B to C, C to A. A crowd of random surfers splits along the links each round; the matrix columns record the splits. The crowd settles at A 40%, B 20%, C 40%, a split the matrix leaves unchanged, which is an eigenvector with stretch 1.
+* **What clicked:** A has only one incoming link but ties with C, because that link comes from an important page. "A page matters if pages that matter link to it" is circular, and the eigenvector is the one ranking that agrees with itself. Page and Brin, 1998, plus the bored surfer who jumps at random. A matrix and a network of arrows are the same object written two ways (Danka's point).
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** Multiplying a matrix by itself counts two-step paths.
+
+## Oct 20, 2026 — Eigenvectors: directions that only stretch (What is a vector space? part 3)
+
+* **What we looked at:** Most arrows get turned and stretched by a matrix, but some only stretch. Sideways stretch by 3: "right" and "up" are special, the diagonal gets tilted. The matrix sending right to (2, 1) and up to (1, 2): (1, 1) → (3, 3), stretched by 3; (1, −1) → (1, −1), stretched by 1. These are eigenvectors (_eigen_ = "own"), and the stretch amounts are eigenvalues.
+* **What clicked:** Use eigenvectors as the ingredients, and the matrix just stretches each one: same recipe, new ingredients, chosen to make it simple. Pure tones are the eigenvectors of sound, which is why equalizers, echoes and concert halls treat each tone separately and why Fourier is so useful. Quantum energy levels are eigenvalues.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** The quarter turn has no such directions, and i rescues it. PageRank as an eigenvector.
+
 ## Oct 20, 2026 — Why x⁵ fails: the icosahedron (Galois part 3, final)
 
 * **What we looked at:** Five solutions can be shuffled 5 × 4 × 3 × 2 × 1 = 120 ways, and for a typical x⁵ (e.g. x⁵ − x − 1 = 0) all 120 are allowed. One square root peels that to 60, and then it's stuck: the 60 can't be peeled at all ("simple," like a prime that can't be factored). So no formula. The 60 are the turns of an icosahedron, which shuffle five hidden sets of perpendicular axes (Klein's 1884 book). Lower degrees peel: x² has 2 shuffles, x³ has 6 (triangle), x⁴ has 24 (cube). Some x⁵ equations, like x⁵ = 2, have smaller groups and are solvable.

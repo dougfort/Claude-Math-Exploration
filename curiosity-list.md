@@ -8,6 +8,9 @@ Things I'd like to understand, or just enjoy thinking about. No order, no obliga
 - What is a vector space?, including matrices as graphs and Danka's other suggestions (Oct 17–20, 2026; parts 1–6 in the log; summary in what-is-a-vector-space.md)
 
 ## Open questions (Fog's own)
+- What is a manifold?
+- What is a tensor?
+- What are the Jacobian and the Laplacian? (Jacobian begun Oct 21; parts 1–2 in the log. Suggested order: Jacobian → manifold → tensor; the Laplacian any time, as it links back to waves.)
 - Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra (a modern version turns out to be a ring)
 - (add the questions that came out of the Concept Exploration project here)
 
@@ -19,7 +22,7 @@ Things I'd like to understand, or just enjoy thinking about. No order, no obliga
 - A matrix with no eigenvectors: the quarter turn turns every arrow, and i rescues it (from vector spaces part 3)
 - Multiplying a matrix by itself counts two-step paths through its graph (from vector spaces part 4)
 - The folding paper: why bends plus matrices separate what straight motions can't (from vector spaces part 5)
-- Backpropagation: how one backward sweep finds every slope at once (from vector spaces part 6)
+- The Jacobian's area factor: how much tiny squares grow or shrink at each spot, and why it matters when switching from a globe to a flat map (from Jacobian part 1)
 - What the four parts of a quaternion do, and how a quaternion turns an object in space (from algebra part 5)
 - Why multiplying any two plane numbers (like 3 + 2i) always amounts to "turn by an angle, then stretch" (from algebra part 4)
 - Bombelli's cancellation, step by step (optional drill-down, from algebra part 3)

@@ -1,9 +1,8 @@
 # What is a vector space?
 
-_A one-page summary of the exploration, Oct 17–20, 2026. Prompted by Tivadar Danka's four suggestions: learn linear algebra, see matrices as graphs, see calculus as optimization language, and learn vector spaces until neural networks stop looking like black magic._
+*A one-page summary of the exploration, Oct 17–20, 2026. Prompted by Tivadar Danka's four suggestions: learn linear algebra, see matrices as graphs, see calculus as optimization language, and learn vector spaces until neural networks stop looking like black magic.*
 
 ## The short answer
-
 A vector space is anything you can **add** and **stretch by numbers**, as long as those two operations follow the familiar rules. Arrows, sounds, recipes, photos and lists of a billion numbers all qualify. Whatever you prove from the rules alone holds for every one of them.
 
 ## How we got there
@@ -18,18 +17,16 @@ A vector space is anything you can **add** and **stretch by numbers**, as long a
 
 **5. Matrices as graphs; PageRank (Page and Brin, 1998).** The same grid of numbers is also a map of arrows between dots. Web pages and their links form a matrix, and a crowd of random surfers settles into a split that the matrix leaves unchanged: an eigenvector. "A page matters if pages that matter link to it" sounds circular, but the eigenvector is the one ranking that agrees with itself.
 
-**6. Neural networks: matrix, bend, matrix, bend.** The familiar drawing of dots and weighted lines _is_ a matrix drawn as a graph. Matrices alone would collapse into one motion, so a small bend between layers (negatives become zero) lets the network fold space instead of only slanting it.
+**6. Neural networks: matrix, bend, matrix, bend.** The familiar drawing of dots and weighted lines *is* a matrix drawn as a graph. Matrices alone would collapse into one motion, so a small bend between layers (negatives become zero) lets the network fold space instead of only slanting it.
 
 **7. Learning as walking downhill (Cauchy 1847; backpropagation 1986).** Mistakes become one number, the loss. Every setting of the weights is a point in a landscape, with loss as height. Calculus gives the slope, and the network steps downhill thousands of times. With billions of weights, the landscape has billions of dimensions, and the same rule works.
 
 ## The thread through it all
-
-One move kept coming back: **same recipe, new ingredients**, plus the freedom to _choose_ the ingredients that make a problem simple. The "black magic" of neural networks turned out to be this move done at enormous scale, with bends in between and weights found by walking downhill. What remains genuinely mysterious is _why_ it works as well as it does.
+One move kept coming back: **same recipe, new ingredients**, plus the freedom to *choose* the ingredients that make a problem simple. The "black magic" of neural networks turned out to be this move done at enormous scale, with bends in between and weights found by walking downhill. What remains genuinely mysterious is *why* it works as well as it does.
 
 ## Still open
-
-* A matrix with no eigenvectors (the quarter turn), and how i rescues it
-* Multiplying a matrix by itself counts two-step paths through its graph
-* The folding paper: why bends plus matrices can separate what straight motions can't
-* Backpropagation: how one backward sweep finds every slope at once
-* Closeness in high dimensions, and the high-dimensional orange that is almost all peel
+- A matrix with no eigenvectors (the quarter turn), and how i rescues it
+- Multiplying a matrix by itself counts two-step paths through its graph
+- The folding paper: why bends plus matrices can separate what straight motions can't
+- Backpropagation: how one backward sweep finds every slope at once
+- Closeness in high dimensions, and the high-dimensional orange that is almost all peel

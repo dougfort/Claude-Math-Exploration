@@ -13,6 +13,20 @@ Template:
 
 ***
 
+## Oct 21, 2026 — Backpropagation: a chain of Jacobians (Jacobian part 2)
+
+* **What we looked at:** A network is a chain: layer 1, layer 2, … then one number, the loss. Stretches multiply along a chain (2 then 3 makes 6: the chain rule, Leibniz, 1670s). In many dimensions each layer's stretch is its Jacobian, and chaining them means multiplying the matrices. Backpropagation starts at the narrow end (the single loss number) and passes sensitivity back one layer at a time, each step reusing the next one's result. The bend's Jacobian is simple: stretch 1 where a value was positive, 0 where it was flattened.
+* **What clicked:** A relay of blame: each layer is told "this much is yours; pass the rest on." Backward gets every slope in one sweep, roughly the cost of running the network once or twice, instead of one sweep per weight. Blame passes through active spots and stops at flattened ones. History: Linnainmaa 1970; Rumelhart, Hinton and Williams 1986.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** (none new; this closes the backpropagation thread)
+
+## Oct 21, 2026 — The Jacobian: a matrix at every point (Jacobian part 1)
+
+* **What we looked at:** Bent motions (an unevenly stretched rubber sheet, the round Earth flattened onto a map) curve the grid lines, so no single matrix describes them. Zoom in on one point, though, and a tiny square becomes almost exactly a parallelogram: the motion acts like a matrix there. That matrix is the Jacobian at that point. Example: each point at distance x moves to x². Near x = 1 the Jacobian is 2 0 / 0 1; near x = 3 it's 6 0 / 0 1.
+* **What clicked:** The Jacobian is the derivative grown into a matrix (the slope of x² at 3 is 6, the same 6). "Same recipe, new ingredients" still works for bent motions, but locally, with a fresh matrix at every point. Named for Carl Jacobi (1841).
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** The area factor: how much tiny squares grow or shrink at each spot (6 times near x = 3), and why it matters when switching maps. Onward to manifolds.
+
 ## Oct 20, 2026 — Learning as walking downhill; the wrap-up (What is a vector space? part 6, final)
 
 * **What we looked at:** Mistakes become one number, the loss. Each setting of the weights is a point in a landscape (a vector), with loss as height. Calculus gives the slope for each weight; together the slopes make the gradient, which points uphill, so you step the other way (gradient descent, Cauchy 1847). Billions of weights means billions of dimensions, but the rule never mentions dimension. Backpropagation (made famous 1986) finds all the slopes in one backward sweep. Caveats: step size matters, and you can get stuck in a small dip (less of a problem in practice than feared, and not fully understood why).

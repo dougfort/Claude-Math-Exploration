@@ -8,13 +8,16 @@ Things I'd like to understand, or just enjoy thinking about. No order, no obliga
 - What is a vector space?, including matrices as graphs and Danka's other suggestions (Oct 17–20, 2026; parts 1–6 in the log; summary in what-is-a-vector-space.md)
 
 ## Open questions (Fog's own)
-- What is a manifold?
-- What is a tensor?
+- What is a manifold? (begun Oct 21; part 1 in the log)
+- What is a tensor? (begun Oct 22; part 1 in the log)
 - What are the Jacobian and the Laplacian? (Jacobian begun Oct 21; parts 1–2 in the log. Suggested order: Jacobian → manifold → tensor; the Laplacian any time, as it links back to waves.)
 - Boole's arithmetic: letters for statements instead of quantities, where x × x = x, and how logic became algebra (a modern version turns out to be a ring)
 - (add the questions that came out of the Concept Exploration project here)
 
 ## Threads from excursions
+- The metric as a ruler: how a small grid of numbers measures length, using a flat map of the globe where an inch means different distances in different places (from tensor part 1)
+- Carrying an arrow around a triangle on a sphere: it comes back turned, and the turning is the curvature (from tensor part 1)
+- How an ant on a sphere detects curvature from inside: a big triangle's angles add to more than 180° (from manifold part 1)
 - Why the icosahedron's 60 shuffles can't be peeled, sketched in small steps (from Galois part 3)
 - Galois's life, the duel, and the letter: what's known vs. legend (optional, from Galois part 1)
 - Closeness in high dimensions: similar photos are nearby points, the root of machine recognition (from vector spaces part 2)

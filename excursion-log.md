@@ -13,6 +13,20 @@ Template:
 
 ***
 
+## Oct 22, 2026 — Arrows on a curved space, and what a tensor is (Tensor part 1)
+
+* **What we looked at:** A ship's arrow doesn't bend along the Earth; it lives in the flat tangent plane touching the surface at that point. Every point has its own tangent plane, its own little vector space, so arrows at Boston and Tokyo can't simply be added. Writing an arrow as numbers needs a chart, and different charts give different numbers for the same arrow (like dollars vs. euros), converted by the Jacobian.
+* **What clicked:** A tensor is anything with a rule for how its numbers change between charts, chosen so the thing itself stays the same. An arrow is the simplest (Jacobian once). The metric, a ruler at each point (a 2-by-2 grid on a surface), converts with the Jacobian twice; knowing it everywhere gives all distances and the curvature (Riemann, 1854). "A tensor is something that transforms like a tensor": defined by what it does, like the negatives. Einstein's gravity is the metric of spacetime, a 4-by-4 grid at every point. In machine learning, "tensor" loosely means any grid of numbers, with no chart-switching rule.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** The metric as a ruler (a flat map of the globe, where an inch means different distances in different places). Carrying an arrow around a triangle on a sphere: it comes back turned, and the turning is the curvature.
+
+## Oct 21, 2026 — Manifolds: curved spaces that look flat up close (Manifold part 1)
+
+* **What we looked at:** The Jacobian's zooming trick applied to space itself. A manifold is a space where every small patch looks like flat ordinary space. Examples: a circle (1-D), a sphere's surface and a doughnut's surface (2-D). Non-example: a figure 8, whose crossing point zooms to an X. No flat map of the Earth keeps all distances (Gauss, 1827), so we use an atlas of overlapping charts with conversion rules between them, and those rules have Jacobians.
+* **What clicked:** "Atlas" and "chart" really are borrowed from mapmaking. Riemann's 1854 qualifying lecture (Gauss chose the topic from three offered): space itself might be curved, describable entirely from inside. Einstein (1915): spacetime is a 4-D manifold curved by mass.
+* **Still fuzzy:** (nothing noted)
+* **Threads that opened:** How an ant on a sphere detects curvature from inside (a big triangle's angles add to more than 180°). Arrows on a curved space, which leads to tensors.
+
 ## Oct 21, 2026 — Backpropagation: a chain of Jacobians (Jacobian part 2)
 
 * **What we looked at:** A network is a chain: layer 1, layer 2, … then one number, the loss. Stretches multiply along a chain (2 then 3 makes 6: the chain rule, Leibniz, 1670s). In many dimensions each layer's stretch is its Jacobian, and chaining them means multiplying the matrices. Backpropagation starts at the narrow end (the single loss number) and passes sensitivity back one layer at a time, each step reusing the next one's result. The bend's Jacobian is simple: stretch 1 where a value was positive, 0 where it was flattened.
